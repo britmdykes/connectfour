@@ -7,16 +7,14 @@ var player1color = 'red';
 var player2color = 'black';
 var column='0'
 
-// Player one selects a column (1-7)
-$('.column').on('click', function() {
-	// if column has at least 1 empty cell
+// Player one selects a cell
+$('.cell').on('click', function() {
+	// if cell is empty
 	
 		// get location lowest empty cell
 
 		// create chip with player color 
-	$('.cell').on('click', function(){
-		$('.cell').addClass('clicked');
-	})
+	$(this).addClass('clicked');
 		// place chip in location (1)
 
 		// look at neighbor cells and get chip color, location, and direction from source chip
