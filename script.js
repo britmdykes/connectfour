@@ -10,11 +10,7 @@ var column='0'
 // Player one selects a column (1-7)
 $('.column').on('click', function() {
 	// if column has at least 1 empty cell
-	if (column > 1) {
-		console.log('clicked')
-	} else if (column <1) {
-		console.log('Pick a new column')
-	}
+	
 		// get location lowest empty cell
 
 		// create chip with player color 
